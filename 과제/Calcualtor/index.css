@@ -1,0 +1,17 @@
+body{
+    padding: 15px;
+}
+
+button{
+    font-size: 15px;
+    width: 40px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.printBox{
+    width: 160px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+

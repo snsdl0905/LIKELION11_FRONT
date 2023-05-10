@@ -1,0 +1,40 @@
+body{
+    padding: 20px;
+}
+.calcTop {
+    width: 100%;
+    text-align: center;
+}
+
+.calcTop h2{
+    color: blueviolet;
+}
+
+.calcTop div{
+    color: dimgray;
+}
+
+.calcMid div{
+    font-weight: bold;
+}
+
+.calcMid{
+    gap: 10px;
+}
+.calcMid button{
+    width: 100%;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    padding: 7px;
+    border-radius: 5px 5px;
+    font-size: 14px;
+}
+
+.calcMid input{
+    width: 100%;
+    padding: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    box-shadow: darkgrey;
+}
