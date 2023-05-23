@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+li{
+    padding-bottom: 15px;
+    width: 100%;
+}
+
+.main .toDo{
+    text-align: left;
+    border: 1px solid black;
+    padding: 15px;
+}
+
+.userInput{
+    font-size: medium;
+    margin-bottom: 20px;
+}
+
+
+.delete{
+    float: right;
+}
+
+img{
+    width: 15px;
+    height: 15px;
+}
+
+button{
+    border: 0;
+    background-color: rgba(115, 111, 111, 0.662);
+    margin: 0 5px;
+    border-radius: 15px 15px;
+}
+
+.todo-item{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.checked{
+    text-decoration: line-through;
+    color: rgb(169, 167, 167);
+}
+
+.btn-array{
+    margin-left: auto;
+    padding: 0 10px;
+}
+
+
+div .todo-content{
+    padding: 0 10px;
+}
