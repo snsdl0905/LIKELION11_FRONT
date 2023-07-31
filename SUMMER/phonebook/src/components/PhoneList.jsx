@@ -1,10 +1,10 @@
-import react from "react";
 import { useState } from "react";
 import styled from "styled-components";
 import Detail from "./Detail";
 
 const Box = styled.div`
   border: 1px solid grey;
+  padding: 10px;
 `;
 
 const PopupBackground = styled.div`
@@ -19,13 +19,7 @@ const PopupBackground = styled.div`
   align-items: center;
 `;
 
-function PhoneList() {
-  const [list, setList] = useState([
-    { name: "lee", number: "01000000000", address: "Seoul", image: "L.png" },
-    { name: "kim", number: "01011111111", address: "Incheon", image: "K.png" },
-    { name: "park", number: "01022222222", address: "Busan", image: "P.png" },
-  ]);
-
+function PhoneList({list}) {
   const [selectedContact, setSelectedContact] = useState(null);
 
   const handleContactClick = (contact) => {
